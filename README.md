@@ -4,6 +4,10 @@
   </p>
 
   <h1>XCDaaS</h1>
+
+  <div align="center">
+    <b>XMPP Connection Discovery as a Service</b>
+  </div>
 </div>
 
 ## Usage
