@@ -20,6 +20,8 @@ TODO
 
 - [Node.js](https://nodejs.org/en) `v10.15.3`
 - [Yarn](https://yarnpkg.com/en/)
+- `.env`
+  - `PORT`
 
 ### Running
 
