@@ -6,7 +6,9 @@
     "start": "npm run start-watch",
     "start-watch": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xmpp-connection-discovery": "^0.1.0"
+  },
   "devDependencies": {
     "@types/node": "^12.7.4",
     "nodemon": "^1.19.2",
