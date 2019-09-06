@@ -2,5 +2,5 @@
   "version": 2,
   "builds": [{ "src": "dist/index.js", "use": "@now/node-server" }],
   "routes": [{ "src": "/(.*)", "dest": "dist/index.js" }],
-  "alias": "xcdaas.now.sh "
+  "alias": "xcdaas.now.sh"
 }
