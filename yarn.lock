@@ -48,6 +48,18 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/lodash.isempty@^4.4.6":
+  version "4.4.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.isempty/-/lodash.isempty-4.4.6.tgz#48a5576985727d9b85d59a60199d6b11ac756a3e"
+  integrity sha512-AauKrFlA4z3Usog5HLGDupKzkCP7h5KXGlfAcRGUfvTmL7guVuEzDSNI6lYJ7syO7J2RE2F47179pSLr26UHIw==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.138"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.138.tgz#34f52640d7358230308344e579c15b378d91989e"
+  integrity sha512-A4uJgHz4hakwNBdHNPdxOTkYmXNgmUAKLbXZ7PKGslgeV0Mb8P3BlbYfPovExek1qnod4pDfRbxuzcVs3dlFLg==
+
 "@types/mime@*":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
@@ -1390,6 +1402,11 @@ latest-version@^3.0.0:
   dependencies:
     package-json "^4.0.0"
 
+lodash.isempty@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.isempty/-/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
+  integrity sha1-b4bL7di+TsmHvpqvM8loTbGzHn4=
+
 lowercase-keys@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
@@ -2563,10 +2580,10 @@ xmlbuilder@~11.0.0:
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
   integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
 
-xmpp-connection-discovery@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/xmpp-connection-discovery/-/xmpp-connection-discovery-0.1.0.tgz#ab253c02916f912b118a26d62ec1fa659c893713"
-  integrity sha512-XCnmTkRZE5blY3XHgdw+7ibnLWqHJrkwi7HfxIO8T5kzFJl3LVd8brMAJVj3f/gVWZ4648b3fglhWhnp7CzahA==
+xmpp-connection-discovery@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/xmpp-connection-discovery/-/xmpp-connection-discovery-0.2.0.tgz#1a60c0c56ee364eec670ff3bbabcfdd9bb85d136"
+  integrity sha512-J7Fgn5EL8dRhxy/4GlbioENYoiinMbX0hWxl77d5GRfJojvbr/jfgKWstQa+YIWyWcVkkrFtLIlU5mD3sNn1xw==
   dependencies:
     request "^2.83.0"
     xml2js "^0.4.19"
