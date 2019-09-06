@@ -12,7 +12,9 @@
 
 ## Usage
 
-TODO
+```bash
+❯ curl -X GET https://xcdaas.now.sh/api/discover/:domain
+```
 
 ## Development
 
@@ -24,4 +26,4 @@ TODO
 ### Running
 
 - `❯ yarn`
-- `❯ yarn start`
+- `❯ yarn dev`
