@@ -2,7 +2,9 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import api from './api';
-import { loadEnvironmentVariables } from './utilities';
+import constants from './constants';
+
+const PORT = process.env.PORT || constants.server.port;
 
 const app = express();
 
@@ -12,10 +14,6 @@ app.use(cors());
 app.use('/api/', api());
 
 try {
-  loadEnvironmentVariables(['PORT']);
-
-  const PORT = process.env.PORT;
-
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}...`);
   });
