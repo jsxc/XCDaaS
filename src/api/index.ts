@@ -31,7 +31,7 @@ export default () => {
   });
 
   api.use((req, res) => {
-    res.status(404).json({
+    return res.status(404).json({
       error: { message: 'Not Found' },
       data: null,
     });
